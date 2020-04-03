@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pottermania</title>
+	<meta charset="UTF-8"/>
+	<meta name="author" content="Askovic Damnjan 174.17"/>
+	<meta name="keywords" content="Harry Potter, Hogwarts, Magic"/>
+	<meta name="language" content="English"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/gallery.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css" />
+	<link rel="icon" href="images/favicon.ico">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="http://www.fontsaddict.com/font/harry-potter.html" rel="stylesheet">
+</head>
+<body>
+<div id="omot">
+	<header>
+		<div id="pozadina">
+			<div id="glavni">
+				<div id="logo">
+					<a href="index.html"><img src="images/logo.png" alt="Logo"></a>
+				</div>
+				<div id="meni" class="topnav">
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li class="flexmeni"><a href="index.html">Home</a></li>
+						<li><a href="hogwarts.html">Hogwarts</a></li>
+						<li class="aktivanLink"><a href="gallery.html">Gallery</a></li>
+						<li><a href="contact.html">Contact</a></li>
+						<li><a href="about.html">About</a></li>
+						<li><a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    				<span class="fa fa-bars"></span>
+  					</a>
+						</li>
+					</ul>
+				</div>
+				<div id="pretraga">
+					<form action="#" method="GET">
+						<input type="text" name="tbPretraga" id="tbPretraga" placeholder="Search.." />
+						<button type="submit" id="tbDugme"> <i class="fa fa-search"></i> </button>
+					</form>
+				</div>
+				<div class="cleaner"></div>
+				<div id="prebaci">
+					<a href="#naslov" id="dugmes">More images</a>
+				</div>
+			</div>
+		</div>
+	</header>
+	<main>
+		<div id="naslov">
+			<h1>Gallery</h1>
+		</div>
+		<div id="gornji">
+			<figure class="slika">
+				<img src="images/hari.jpg" alt="Harry Potter" class="redG">
+			</figure>
+			<figure class="slika">
+				<img src="images/battle.jpg" alt="Harry Potter" class="redG">
+			</figure >
+			<figure class="slika">
+				<img src="images/patronus.jpg" alt="Patronus" class="redG">
+			</figure>
+			<figure class="slika">
+				<img src="images/hrjh.jpg" alt="Harry Ginny Hermione Ron" class="redG">
+			</figure>
+
+		</div>
+		<div class="cleaner">
+		</div>
+		<div id="donji">
+			<figure>
+				<img src="images/hat.jpg" alt="Hat" class="redG">
+			</figure>
+			<figure>
+				<img src="images/lupin.jpg" alt="Professor Lupin" class="redG">
+			</figure>
+			<figure>
+				<img src="images/snape.jpg" alt="Professor Snape" class="redG">
+			</figure>
+			<figure>
+				<img src="images/rhh.jpg" alt="Ron Hermione Harry" class="redG">
+			</figure>
+
+		</div>
+	</main>
+	<footer>
+			<div id="autor">
+				<h3 id="naslovFuter"><a href="about.html">Copyright &copy Damnjan Ašković 174/17</a></h3>
+			</div>
+			<div id="meniFuter">
+				<ul>
+					<li><a href="index.html">&#x25C6 Home</a></li>
+					<li><a href="hogwarts.html">&#x25C6 Hogwarts</a></li>
+					<li class="aktivanLink"><a href="gallery.html">&#x25C6 Gallery &#x25C2</a></li>
+					<li><a href="contact.html">&#x25C6 Contact</a></li>
+					<li><a href="about.html">&#x25C6 About</a></li>
+				</ul>
+			</div>
+			<div id="social">
+				<ul>
+					<li><a href="https://www.facebook.com/harrypottermovie/" target="_blank"> <i class="fa fa-facebook"></i></a></li>
+					<li><a href="https://www.instagram.com/harrypotterfilm/" target="_blank"> <i class="fa fa-instagram"></i></a></li>
+					<li><a href="sitemap.xml" target="_blank"> <i class="fa fa-sitemap"></i></a></li>
+					<li><a href="less.txt" target="_blank">LESS</a></li>
+				</ul>
+			</div>
+		</footer>
+</div>
+<script>
+function myFunction() {
+	var x = document.getElementById("meni");
+	if (x.className === "topnav") {
+			x.className += " responsive";
+	} else {
+			x.className = "topnav";
+	}
+}
+</script>
+</body>
+</html>

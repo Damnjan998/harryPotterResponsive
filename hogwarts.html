@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pottermania</title>
+	<meta charset="UTF-8"/>
+	<meta name="author" content="Askovic Damnjan 174.17"/>
+	<meta name="keywords" content="Harry Potter, Hogwarts, Magic"/>
+	<meta name="language" content="English"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/hogwarts.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css" />
+	<link rel="icon" href="images/favicon.ico">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="http://www.fontsaddict.com/font/harry-potter.html" rel="stylesheet">
+</head>
+<body>
+<div id="omot">
+	<header>
+		<div id="pozadina">
+			<div id="glavni">
+				<div id="logo">
+					<a href="index.html"><img src="images/logo.png" alt="Logo"></a>
+				</div>
+				<div id="meni" class="topnav">
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li class="flexmeni"><a href="index.html">Home</a></li>
+						<li class="aktivanLink"><a href="hogwarts.html">Hogwarts</a></li>
+						<li><a href="gallery.html">Gallery</a></li>
+						<li><a href="contact.html">Contact</a></li>
+						<li><a href="about.html">About</a></li>
+						<li><a href="javascript:void(0);" class="icon" onclick="myFunction()">
+						<span class="fa fa-bars"></span>
+						</a>
+						</li>
+					</ul>
+				</div>
+				<div id="pretraga">
+					<form action="#" method="GET">
+						<input type="text" name="tbPretraga" id="tbPretraga" placeholder="Search.." />
+						<button type="submit" id="tbDugme"> <i class="fa fa-search"></i> </button>
+					</form>
+				</div>
+				<div class="cleaner"></div>
+				<div id="prebaci">
+					<a href="#fact" id="dugmes">Find out more</a>
+				</div>
+			</div>
+		</div>
+		</header>
+		<main>
+			<section id="fact">
+				<div id="artiklL">
+					<h3>History of Hogwarts</h3>
+					<p>&#x25C6Hogwarts was founded around 990 A.D. by two wizards and two witches: Godric Gryffindor, Helga Hufflepuff, Rowena Ravenclaw, and Salazar Slytherin. They each represented an aspect of personality that they wanted to bring out in new students.</p>
+					<p>&#x25C6Hogwarts School of Witchcraft and Wizardry is the British wizarding school, located in the Highlands of Scotland. It takes students from the United Kingdom of Great Britain and Northern Ireland, and Ireland.</p>
+					<p>&#x25C6The school's motto is Draco Dormiens Nunquam Titillandus (Draco Dormiens Nvnqvam Titillandvs), which, translated from Latin, means "Never tickle a sleeping dragon"</p>
+				</div>
+				<div id="slika">
+					<img src="images/ulaz.jpg" alt="Entrance">
+				</div>
+				<div id="artiklD">
+					<h3>Houses of Hogwarts</h3>
+					<table border="5px" width="100%" cellpadding="1px" cellspacing="1px" id="kuca">
+						<tr>
+							<th>Name</th>
+							<th>Founder</th>
+							<th>Animal</th>
+							<th>Head</th>
+						</tr>
+						<tr>
+							<td>Gryffindor</td>
+							<td>Godric Gryffindor</td>
+							<td>Lion</td>
+							<td>Minerva McGonagall</td>
+						</tr>
+						<tr>
+							<td>Hufflepuff</td>
+							<td>Helga Hufflepuff</td>
+							<td>Badger</td>
+							<td>Filius Flitwick</td>
+						</tr>
+						<tr>
+							<td>Ravenclaw</td>
+							<td>Rowena Ravenclaw</td>
+							<td>Eagle</td>
+							<td>Horace Slughorn</td>
+						</tr>
+						<tr>
+							<td>Slytherin</td>
+							<td>Salazar Slytherin</td>
+							<td>Snake</td>
+							<td>Severus Snape</td>
+						</tr>
+					</table>
+				</div>
+				<div class="cleaner">
+
+				</div>
+			</section>
+		</main>
+		<footer>
+			<div id="autor">
+				<h3 id="naslovFuter"><a href="about.html">Copyright &copy Damnjan Ašković 174/17</a></h3>
+			</div>
+			<div id="meniFuter">
+				<ul>
+					<li><a href="index.html">&#x25C6 Home</a></li>
+					<li class="aktivanLink"><a href="hogwarts.html">&#x25C6 Hogwarts &#x25C2</a></li>
+					<li><a href="gallery.html">&#x25C6 Gallery</a></li>
+					<li><a href="contact.html">&#x25C6 Contact</a></li>
+					<li><a href="about.html">&#x25C6 About</a></li>
+				</ul>
+			</div>
+			<div id="social">
+				<ul>
+					<li><a href="https://www.facebook.com/harrypottermovie/" target="_blank"> <i class="fa fa-facebook"></i></a></li>
+					<li><a href="https://www.instagram.com/harrypotterfilm/" target="_blank"> <i class="fa fa-instagram"></i></a></li>
+					<li><a href="sitemap.xml" target="_blank"> <i class="fa fa-sitemap"></i></a></li>
+					<li><a href="less.txt" target="_blank">LESS</a></li>
+				</ul>
+			</div>
+		</footer>
+	</div>
+	<script>
+function myFunction() {
+    var x = document.getElementById("meni");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+</script>
+</body>
+</html>
